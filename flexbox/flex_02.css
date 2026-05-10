@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    border: 2px solid green;
+    height: 35rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box{
+    border: 2px solid black;
+    height: 50px;
+    padding: 1rem;
+    font-size: 2rem;
+    width: 7rem;
+}
+.box1{
+    border: 2px solid beige;
+    background-image: aqua;
+    /* height: 60px; */
+}
+.box2{
+    border: 2px solid blue;
+    background-color: lawngreen;
+    /* height: 90px; */
+}
+.box3{
+    border: 2px solid green;
+    background-image: linen;
+    /* height: 100px; */
+}
+.box4{
+    border: 2px solid blueviolet;
+    background-color: lightslategray;
+    /* height: 50px; */
+}
+.box5{
+    border: 2px solid brown;
+    background-color: lightcyan;
+    /* height: 50px; */
+}
