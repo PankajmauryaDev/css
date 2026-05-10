@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    color: red;
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+.container{
+    height: 95vh;
+    width: 95vw;
+    background-color: lightblue;
+    border: 2px solid red;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+
+#box3,#box2,#box1, #box{
+    background-color: brown;
+}
+
